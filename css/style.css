@@ -14,12 +14,15 @@
 }
 
 .form__fields {
-
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .button {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     text-transform: capitalize;
     width: 100%;
@@ -58,11 +61,11 @@
 }
 
 .form__container {
-    display: grid;
-    gap: 30px;
+    display: flex;
+
 }
 
-.button-image {
+.image {
     position: absolute;
     display: flex;
     width: 35px;
@@ -78,6 +81,7 @@
     
     }
     .form__container {
-        display: flex;
+        display: grid;
+        gap: 30px;
     }
 }
