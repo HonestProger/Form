@@ -1,0 +1,102 @@
+.text-field{
+    width: 100%;
+    position: relative;
+
+}
+
+.text-field__style{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background: #EBF3FF;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    box-shadow: inset -3.68541px -3.68541px 9.21353px #FFFFFF, inset 3.68541px 3.68541px 6.44947px #B4C1D5;
+    z-index: 1;
+}
+
+.text-field__input {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.8203px;
+    line-height: 17px;
+    color: #000000;
+    padding: 19px 0px 19px 10px;
+    background: transparent;
+    border: none;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.text-field__input::placeholder {
+    color: #ADAEAF;
+}
+
+
+.form {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+
+.form__textfields {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.textfield {
+
+}
+
+
+.button {
+    width: 196px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.button__style {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    background: #1FB7E8;
+    box-shadow: -2px 3px 30px rgba(31, 183, 232, 0.3);
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    z-index: 0;
+}
+
+.button-sketch {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
